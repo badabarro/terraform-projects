@@ -14,3 +14,5 @@ Ce projet permet de déployer automatiquement une infrastructure AWS EC2 en util
     ID de l'instance : Récupération de l'identifiant de l'instance
 
 Un script d'exécution (executor.sh) est fourni pour simplifier les différentes étapes du déploiement.
+
+Note: N'oubliez de générer une clé ssh.
