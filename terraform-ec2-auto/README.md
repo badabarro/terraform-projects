@@ -1,7 +1,9 @@
-🚀 Automatisation AWS EC2 avec Terraform
-📖 Description
+Automatisation AWS EC2 avec Terraform
 
-Ce projet permet de déployer automatiquement une infrastructure AWS EC2 en utilisant Terraform. Il automatise la création des éléments suivants :
+
+Description
+
+Ce projet permet de déployer automatiquement une infrastructure AWS EC2 en utilisant Terraform et Github CI. Il automatise la création des éléments suivants :
 
     Provider AWS : Configuration du fournisseur AWS
 
