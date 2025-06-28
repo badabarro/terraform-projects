@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
   instance_type          = "t3.micro"
   key_name               = "dev-key"
   vpc_security_group_ids = [aws_security_group.dev-sg.id]
-  availability_zone      = "us-east-1a"
+  subnet_id              = aws_subnet.dev_subnet.id
 
   tags = {
     Name    = "DevInstance"
