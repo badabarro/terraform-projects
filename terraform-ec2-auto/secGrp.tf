@@ -1,5 +1,6 @@
 resource "aws_security_group" "dev-sg" {
   name        = "dev-sg"
+  vpc_id = aws_vpc.dev_vpc.id
   description = "dev-security-group"
   tags = {
     Name = "dev-sg"
