@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ERROR_LOG="terraform-errors.txt"
-##:
+
 rm -f $ERROR_LOG
 
 echo "[1/4] Initialisation de Terraform..."
